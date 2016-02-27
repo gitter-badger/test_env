@@ -1,0 +1,27 @@
+{
+ "name": "nice_alg",
+ "version": "0.0.1",
+ "description": "Compare and search string algorithms",
+ "homepage": "https://github.com/xguest/nice_alg/",
+ "main": "nice_alg.js",
+ "author": {
+  "name": "xguest",
+  "email": "xguest@list.ru"
+ },
+ "keywords": ["javascript", "nice_alg"],
+ "bugs": {
+  "url": "https://github.com/xguest/nice_alg/issues"
+ },
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/xguest/nice_alg.git"
+ },
+ "devDependencies": {
+  "mocha": "^1.0.0"
+ },
+ "license": "GPL",
+ "readmeFilename": "README.md",
+ "scripts": {
+  "test": "mocha --reporter spec --bail test/*.js"
+ }
+}
