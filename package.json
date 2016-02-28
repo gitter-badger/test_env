@@ -22,11 +22,15 @@
   "devDependencies": {
     "mocha": "^1.0.0",
     "mocha-lcov-reporter": "^1.2.0"
+    "coveralls": "^2.11.8",
+    "jscoverage": "^0.6.0",
+    "lcov-parse": "0.0.6",
+    "nodeunit": "^0.9.1"
   },
   "license": "GPL",
   "readmeFilename": "README.md",
   "scripts": {
     "test": "mocha --reporter spec --bail test/*.js",
-    "test-cov": "jscoverage lib lib-cov ;MS_COV=1 ./node_modules/.bin/mocha -R html-cov > coverage.html",
+    "test-cov": "jscoverage lib lib-cov ;MS_COV=1 ./node_modules/.bin/mocha -R html-cov > coverage.html"
   }
 }
