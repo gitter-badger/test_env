@@ -17,6 +17,7 @@
     "url": "https://github.com/xguest/nice_alg.git"
   },
   "devDependencies": {
+    "graceful-fs":"^4.0.0",
     "coveralls": "^2.11.2",
     "jscoverage": "^0.5.6",
     "mocha": "^1.21.4",
