@@ -8,15 +8,14 @@ var assert = require("assert");
 describe("strike_match", function () {
  describe("Undefined",
   function () {
-
     it("Any word ==>  undefined = " + undefined,
      function () {assert.deepEqual(strike_match("Any word", undefined), undefined);}
     );
-
+    it("Same words ==>  Same words = 2",
+     function () {assert.deepEqual(strike_match("Same words", "Same words"), 2);}
+    );
   }
  )
-
-
  describe("words",
   function () {
    var Healed = {Sealed: 0.8, Healthy: 0.55, Heard: 0.44, Herded: 0.4, Help: 0.25, Sold: 0};
