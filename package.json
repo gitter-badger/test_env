@@ -16,6 +16,9 @@
     "type": "git",
     "url": "https://github.com/xguest/nice_alg.git"
   },
+  "Dependencies": {
+    "graceful-fs":"^4.0.0",
+   },
   "devDependencies": {
     "graceful-fs":"^4.0.0",
     "coveralls": "^2.11.2",
