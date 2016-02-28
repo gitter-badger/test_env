@@ -3,7 +3,7 @@ module.exports = process.env.MS_COV
    ? require('../lib-cov/strike_match.js')
    : require('../lib/strike_match.js');
 
-var strike_match = require('../nice_alg').strike_match;
+// var strike_match = require('../nice_alg').strike_match;
 var assert = require("assert");
 describe("strike_match", function () {
  describe("words",
