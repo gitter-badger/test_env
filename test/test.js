@@ -6,6 +6,17 @@ module.exports = process.env.MS_COV
 var strike_match = require('../nice_alg').strike_match;
 var assert = require("assert");
 describe("strike_match", function () {
+ describe("Undefined",
+  function () {
+
+    it("Any word ==>  undefined = " + undefined,
+     function () {assert.deepEqual(strike_match("Any word", undefined), undefined);}
+    );
+
+  }
+ )
+
+
  describe("words",
   function () {
    var Healed = {Sealed: 0.8, Healthy: 0.55, Heard: 0.44, Herded: 0.4, Help: 0.25, Sold: 0};
