@@ -22,6 +22,9 @@
  "license": "GPL",
  "readmeFilename": "README.md",
  "scripts": {
-  "test": "mocha --reporter spec --bail test/*.js"
+  "test": "mocha --reporter spec --bail test/*.js",
+  "test-cov": "jscoverage lib lib-cov ;mocha -R html-cov > coverage.html"
  }
 }
+
+ 
