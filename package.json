@@ -19,7 +19,8 @@
  "devDependencies": {
   "mocha": "^1.0.0",
   "jscoverage":"0.5.9",
-  "coveralls":"2.11.8"
+  "coveralls":"2.11.8",
+  "lcov-parse":"0.0.6"
  },
  "license": "GPL",
  "readmeFilename": "README.md",
