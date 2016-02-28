@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-// module.exports = process.env.MYPROJECT_COV
-//    ? require('../lib-cov')
-//    : require('../lib');
+module.exports = process.env.MYPROJECT_COV
+   ? require('../lib-cov/strike_match.js')
+   : require('../lib/strike_match.js');
 
 var strike_match = require('../nice_alg').strike_match;
 var assert = require("assert");
