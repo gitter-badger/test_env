@@ -38,3 +38,4 @@ example();
 
 [npm-img]: https://img.shields.io/npm/v/nice_alg.svg?style=plastic
 [npm-url]: https://www.npmjs.com/package/nice_alg
+
