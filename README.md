@@ -5,6 +5,7 @@
 [![Build status][travis-img]][travis-url]
 [![Downlod][down-img]][down-url]
 [![NPM version][npm-img]][npm-url]
+[![Coverage Status](https://coveralls.io/repos/github/xguest/test_env/badge.svg?branch=master)](https://coveralls.io/github/xguest/test_env?branch=master)
 
 ### **Compare and search string algorithms for JavaScript**
 "Алгоритмы сравнения и поиска строк."
@@ -38,3 +39,4 @@ example();
 
 [npm-img]: https://img.shields.io/npm/v/nice_alg.svg?style=plastic
 [npm-url]: https://www.npmjs.com/package/nice_alg
+
