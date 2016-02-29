@@ -21,15 +21,18 @@
    },
   "devDependencies": {
     "graceful-fs":"^4.0.0",
+    "coveralls": "^2.11.2",
     "jscoverage": "^0.5.6",
-    "should": "^4.0.4",
     "mocha": "^1.21.4",
-    "mocha-lcov-reporter": "0.0.1"
+    "mocha-lcov-reporter": "0.0.1",
+    "serve": "^1.4.0",
+    "should": "^4.0.4",
+    "umd": "^2.1.0"
   },
   "license": "GNU GPL",
   "readmeFilename": "README.md",
   "scripts": {
     "test": "mocha --reporter spec --bail test/*.js",
-    "test-cov": "jscoverage lib lib-cov ;MS_COV=1 ./node_modules/.bin/mocha -R mocha-lcov-reporter > coverage.html"
+    "test-cov": "jscoverage lib lib-cov ;MS_COV=1 ./node_modules/.bin/mocha -R mocha-lcov-reporter > coverage.html" 
   }
 }
