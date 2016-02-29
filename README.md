@@ -1,4 +1,6 @@
 # Nice_alg
+
+[![Join the chat at https://gitter.im/xguest/test_env](https://badges.gitter.im/xguest/test_env.svg)](https://gitter.im/xguest/test_env?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Home][home-img]][home-url]
 [![License][lic-img]][lic-url]
 [![Code Climate][climate-img]][climate-url]
