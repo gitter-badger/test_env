@@ -1,9 +1,13 @@
 #!/usr/bin/env node
-module.exports = process.env.MS_COV
-   ? require('../lib-cov/strike_match.js')
-   : require('../lib/strike_match.js');
-
-var strike_match = require('../nice_alg').strike_match;
+/* globals before, describe, it */
+'use strict';
+/**
+ * Module dependencies.
+ */
+var strike_match = process.env.MS_COV
+  ? require('../lib-cov/strike_match')
+  : require('../lib/strike_match');
+// End of dependencies.
 var assert = require("assert");
 describe("strike_match", function () {
  describe("Undefined",
@@ -29,7 +33,7 @@ describe("strike_match", function () {
 
  describe("phrases",
   function () {
-   phrase = ["Web Database Applications", "PHP Web Applications", "Web Aplications"],
+   var phrase = ["Web Database Applications", "PHP Web Applications", "Web Aplications"],
    phrases = {
     "Web Database Applications with PHP & MySQL": ["0.82", "0.68", "0.59"],
     "Creating Database Web Applications with PHP and ASP": ["0.71", "0.59", "0.50"],
