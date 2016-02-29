@@ -21,8 +21,10 @@
    },
   "devDependencies": {
     "graceful-fs":"^4.0.0",
+    "jscoverage": "^0.5.6",
     "should": "^4.0.4",
     "mocha": "^1.21.4"
+    "mocha-lcov-reporter": "0.0.1"
   },
   "license": "GNU GPL",
   "readmeFilename": "README.md",
