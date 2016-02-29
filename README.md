@@ -7,7 +7,7 @@
 [![NPM version][npm-img]][npm-url]
 [![Coverage Status](https://coveralls.io/repos/github/xguest/test_env/badge.svg?branch=master)](https://coveralls.io/github/xguest/test_env?branch=master)
 [![Coverity Scan Build Status](https://img.shields.io/coverity/scan/8108.svg)](https://scan.coverity.com/projects/xguest-test_env)
-
+[![Inline docs](http://inch-ci.org/github/xguest/test_env.svg?branch=master&style=shields)](http://inch-ci.org/github/xguest/test_env)
 
 ### **Compare and search string algorithms for JavaScript**
 "Алгоритмы сравнения и поиска строк."
